@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function replaceWithLinebreak(text, linebreak)
+{
+	var raw_separator = document.getElementById("custom_separator").value;
+	if (raw_separator != "")
+	{
+		var regex_separator = new RegExp(raw_separator,"g");
+		text = text.replace(regex_separator, linebreak);
+	}	
+	return text
+		.replace(/[-|,]/g, linebreak)
+		.replace(/ /g,"")
+		.replace(/[a-z|A-Z|Ñ|ñ|\(|\)|\:|.]/g,"");
+}
+function parse()
+{
+	var raw = document.getElementById("numbers").value;
+
+	document.getElementById('output').value = replaceWithLinebreak(raw, "\n");
+	document.getElementById('output').select();
+}
+function clean()
+{
+	document.getElementById("numbers").value = "";
+}
+function remove_empty(array)
+{
+	for (var i = 0; i < array.length; i++) {
+		if (array[i].length==0) {         
+	    	array.splice(i, 1);
+	    	i--;
+	   	}
+	}
+	return array;
+}
+function return_output()
+{
+	var array = remove_empty(document.getElementById('output').value.split("\n"));
+	document.getElementById("numbers").value = array.join(", ");
+	document.getElementById("numbers").select();
+}
+</script>
+</head>
+<body>
+<table border=0 width=100%>
+	<th>
+		Entrada	
+	</th>
+	<th>
+		Salida
+	</th>
+	<tr>
+		<td>
+			<center>
+				<textarea name="Text1" cols="40" rows="32" id='numbers'></textarea>
+				<br/>Usar otro separador:
+				<br/><input type='text' id='custom_separator'/>
+				<br/>
+				<br/><button onclick="parse()"> Acomodar </button>
+				<br/><button onclick="clean()"> Limpiar </button>
+			</center>
+		</td>
+		<td>
+			<center>
+				<textarea name="Text1" cols="40" rows="40" id='output'></textarea>
+				<br/><button onclick="return_output()"> Volver </button>
+			</center>
+		</td>
+	</tr>
+</table>
+<br/>
+<br/> <center> Separa por comas y guiones y borra espacios, puntos y letras. Para volver junta con comas.</center>
+</body>
+</html>
