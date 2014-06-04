@@ -1,0 +1,331 @@
+{
+    "ios": {
+        "min_version": 1
+    },
+    "android": {
+        "min_version": 31
+    },
+    "common": {
+        "photo_url": "http://images-cdn.restorando.net/image/upload/%{version_name}/v1/%{bucket_id}/%{name}",
+        "photo_versions": {
+            "mobile_header": "c_lfill,fl_progressive,g_center,h_326,w_640",
+            "square": "c_fill,h_80,w_80"
+        }
+    },
+    "countries": [
+                  {
+                  "code": "ar",
+                  "name": "Argentina",
+                  "locale": "es-AR",
+                  "currency": "ARS",
+                  "regions": [
+                              {
+                              "code": "buenos-aires",
+                              "name": "Buenos Aires",
+                              "phone": "(11) 6841 1895",
+                              "coordinates": "-34.5853,-58.4246",
+                              "enabled": true,
+                              "has_discount": true,
+                              "default_discount_terms": [
+                                                         "Promoción no acumulable con otras promociones.",
+                                                         "La promoción no incluye menús a precio fijo (por ejemplo: menú ejecutivo, menú del día, etc)."
+                                                         ],
+                              "timezone": "America/Argentina/Buenos_Aires",
+                              "lunch_starts": "12:00",
+                              "lunch_ends": "15:00",
+                              "dinner_starts": "21:00",
+                              "dinner_ends": "00:00",
+                              "disable_restorando_phone": false
+                              }
+                              ],
+                  "flag_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/200px-Flag_of_Argentina.svg.png"
+                  },
+                  {
+                  "code": "br",
+                  "name": "Brasil",
+                  "locale": "pt-BR",
+                  "currency": "BRL",
+                  "regions": [
+                              {
+                              "code": "sao-paulo",
+                              "name": "São Paulo",
+                              "phone": "(11) 31278336",
+                              "coordinates": "-23.58344,-46.67703",
+                              "enabled": true,
+                              "has_discount": true,
+                              "default_discount_terms": [
+                                                         "Não cumulativo com outras promoções ou Restaurant Week.",
+                                                         "A promoção não inclui menus com preços fixos (por exemplo, menu executivo, prato do dia, etc) nem taxa de serviço (10%)"
+                                                         ],
+                              "timezone": "America/Sao_Paulo",
+                              "lunch_starts": "12:00",
+                              "lunch_ends": "15:00",
+                              "dinner_starts": "20:00",
+                              "dinner_ends": "23:00",
+                              "disable_restorando_phone": false
+                              },
+                              {
+                              "code": "rio-de-janeiro",
+                              "name": "Rio de Janeiro",
+                              "phone": "(21) 35219087",
+                              "coordinates": "-22.9631,-43.1809",
+                              "enabled": true,
+                              "has_discount": false,
+                              "default_discount_terms": [
+                                                         "Não cumulativo com outras promoções ou Restaurant Week.",
+                                                         "A promoção não inclui menus com preços fixos (por exemplo, menu executivo, prato do dia, etc) nem taxa de serviço (10%)"
+                                                         ],
+                              "timezone": "America/Sao_Paulo",
+                              "lunch_starts": "12:00",
+                              "lunch_ends": "15:00",
+                              "dinner_starts": "20:00",
+                              "dinner_ends": "23:00",
+                              "disable_restorando_phone": false
+                              },
+                              {
+                              "code": "belo-horizonte",
+                              "name": "Belo Horizonte",
+                              "phone": "(31) 32316371",
+                              "coordinates": "-19.9324,-43.9478",
+                              "enabled": true,
+                              "has_discount": true,
+                              "default_discount_terms": [
+                                                         "Não cumulativo com outras promoções ou Restaurant Week.",
+                                                         "A promoção não inclui menus com preços fixos (por exemplo, menu executivo, prato do dia, etc) nem taxa de serviço (10%)"
+                                                         ],
+                              "timezone": "America/Sao_Paulo",
+                              "lunch_starts": "12:00",
+                              "lunch_ends": "15:00",
+                              "dinner_starts": "20:00",
+                              "dinner_ends": "23:00",
+                              "disable_restorando_phone": false
+                              },
+                              {
+                              "code": "brasilia",
+                              "name": "Brasília",
+                              "phone": "(61) 20170814",
+                              "coordinates": "-15.8223,-47.9031",
+                              "enabled": true,
+                              "has_discount": true,
+                              "default_discount_terms": [
+                                                         "Não cumulativo com outras promoções ou Restaurant Week.",
+                                                         "A promoção não inclui menus com preços fixos (por exemplo, menu executivo, prato do dia, etc) nem taxa de serviço (10%)"
+                                                         ],
+                              "timezone": "America/Sao_Paulo",
+                              "lunch_starts": "12:00",
+                              "lunch_ends": "15:00",
+                              "dinner_starts": "20:00",
+                              "dinner_ends": "23:00",
+                              "disable_restorando_phone": false
+                              },
+                              {
+                              "code": "curitiba",
+                              "name": "Curitiba",
+                              "phone": "(41) 40421004",
+                              "coordinates": "-25.4380,-49.2830",
+                              "enabled": true,
+                              "has_discount": true,
+                              "default_discount_terms": [
+                                                         "Não cumulativo com outras promoções ou Restaurant Week.",
+                                                         "A promoção não inclui menus com preços fixos (por exemplo, menu executivo, prato do dia, etc) nem taxa de serviço (10%)"
+                                                         ],
+                              "timezone": "America/Sao_Paulo",
+                              "lunch_starts": "12:00",
+                              "lunch_ends": "15:00",
+                              "dinner_starts": "20:00",
+                              "dinner_ends": "23:00",
+                              "disable_restorando_phone": false
+                              },
+                              {
+                              "code": "porto-alegre",
+                              "name": "Porto Alegre",
+                              "phone": "(51) 40421013",
+                              "coordinates": "-30.0245,-51.1936",
+                              "enabled": true,
+                              "has_discount": true,
+                              "default_discount_terms": [
+                                                         "Não cumulativo com outras promoções ou Restaurant Week.",
+                                                         "A promoção não inclui menus com preços fixos (por exemplo, menu executivo, prato do dia, etc) nem taxa de serviço (10%)"
+                                                         ],
+                              "timezone": "America/Sao_Paulo",
+                              "lunch_starts": "12:00",
+                              "lunch_ends": "15:00",
+                              "dinner_starts": "20:00",
+                              "dinner_ends": "23:00",
+                              "disable_restorando_phone": false
+                              }
+                              ],
+                  "flag_image_url": "http://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/200px-Flag_of_Brazil.svg.png"
+                  },
+                  {
+                  "code": "cl",
+                  "name": "Chile",
+                  "locale": "es-CL",
+                  "currency": "CLP",
+                  "regions": [
+                              {
+                              "code": "santiago",
+                              "name": "Santiago",
+                              "phone": "56 2 27609916",
+                              "coordinates": "-33.43223,-70.63475",
+                              "enabled": true,
+                              "has_discount": true,
+                              "default_discount_terms": [
+                                                         "Promoción no acumulable con otras promociones.",
+                                                         "La promoción no incluye menús a precio fijo (por ejemplo: menú ejecutivo, menú del día, etc)."
+                                                         ],
+                              "timezone": "America/Santiago",
+                              "lunch_starts": "12:00",
+                              "lunch_ends": "15:00",
+                              "dinner_starts": "20:00",
+                              "dinner_ends": "23:00",
+                              "disable_restorando_phone": false
+                              },
+                              {
+                              "code": "v-region",
+                              "name": "V Región",
+                              "phone": "56 2 27609916",
+                              "coordinates": "-33.045646,-71.620361",
+                              "enabled": true,
+                              "has_discount": false,
+                              "default_discount_terms": [
+                                                         "Promoción no acumulable con otras promociones.",
+                                                         "La promoción no incluye menús a precio fijo (por ejemplo: menú ejecutivo, menú del día, etc)."
+                                                         ],
+                              "timezone": "America/Santiago",
+                              "lunch_starts": "12:00",
+                              "lunch_ends": "15:00",
+                              "dinner_starts": "20:00",
+                              "dinner_ends": "23:00",
+                              "disable_restorando_phone": false
+                              }
+                              ],
+                  "flag_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Flag_of_Chile.svg/200px-Flag_of_Chile.svg.png"
+                  },
+                  {
+                  "code": "co",
+                  "name": "Colombia",
+                  "locale": "es-CO",
+                  "regions": [
+                              {
+                              "code": "bogota",
+                              "name": "Bogotá",
+                              "phone": "(próximamente)",
+                              "coordinates": "4.6530,-74.0559",
+                              "enabled": true,
+                              "has_discount": true,
+                              "default_discount_terms": [
+                                                         "Promoción no acumulable con otras promociones.",
+                                                         "La promoción no incluye menús a precio fijo (por ejemplo: menú ejecutivo, menú del día, etc)."
+                                                         ],
+                              "timezone": "America/Bogota",
+                              "lunch_starts": "12:00",
+                              "lunch_ends": "15:00",
+                              "dinner_starts": "20:00",
+                              "dinner_ends": "23:00",
+                              "disable_restorando_phone": false
+                              },
+                              {
+                              "code": "medellin",
+                              "name": "Medellín",
+                              "phone": "",
+                              "coordinates": "6.230833, -75.590556",
+                              "enabled": true,
+                              "has_discount": true,
+                              "default_discount_terms": [
+                                                         "Promoción no acumulable con otras promociones.",
+                                                         "La promoción no incluye menús a precio fijo (por ejemplo: menú ejecutivo, menú del día, etc)."
+                                                         ],
+                              "timezone": "America/Bogota",
+                              "lunch_starts": "12:00",
+                              "lunch_ends": "15:00",
+                              "dinner_starts": "20:00",
+                              "dinner_ends": "23:00",
+                              "disable_restorando_phone": false
+                              }
+                              ],
+                  "flag_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/200px-Flag_of_Colombia.svg.png"
+                  },
+                  {
+                  "code": "pa",
+                  "name": "Panamá",
+                  "locale": "es-PA",
+                  "regions": [
+                              {
+                              "code": "panama",
+                              "name": "Panamá",
+                              "phone": "",
+                              "coordinates": "8.9833,-79.5167",
+                              "enabled": true,
+                              "has_discount": true,
+                              "default_discount_terms": [
+                                                         "Promoción no acumulable con otras promociones.",
+                                                         "La promoción no incluye menús a precio fijo (por ejemplo: menú ejecutivo, menú del día, etc)."
+                                                         ],
+                              "timezone": "America/Panama",
+                              "lunch_starts": "12:00",
+                              "lunch_ends": "15:00",
+                              "dinner_starts": "20:00",
+                              "dinner_ends": "23:00",
+                              "disable_restorando_phone": false
+                              }
+                              ],
+                  "flag_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/200px-Flag_of_Panama.svg.png"
+                  },
+                  {
+                  "code": "pe",
+                  "name": "Perú",
+                  "locale": "es-PE",
+                  "currency": "PEN",
+                  "regions": [
+                              {
+                              "code": "lima",
+                              "name": "Lima",
+                              "phone": "",
+                              "coordinates": "-12.093084,-77.046491",
+                              "enabled": true,
+                              "has_discount": true,
+                              "default_discount_terms": [
+                                                         "Promoción no acumulable con otras promociones.",
+                                                         "La promoción no incluye menús a precio fijo (por ejemplo: menú ejecutivo, menú del día, etc)."
+                                                         ],
+                              "timezone": "America/Lima",
+                              "lunch_starts": "12:00",
+                              "lunch_ends": "15:00",
+                              "dinner_starts": "20:00",
+                              "dinner_ends": "23:00",
+                              "disable_restorando_phone": false
+                              }
+                              ],
+                  "flag_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Peru.svg/200px-Flag_of_Peru.svg.png"
+                  },
+                  {
+                  "code": "uy",
+                  "name": "Uruguay",
+                  "locale": "es-UY",
+                  "currency": "UYU",
+                  "regions": [
+                              {
+                              "code": "montevideo",
+                              "name": "Montevideo",
+                              "phone": "",
+                              "coordinates": "-34.883706,-56.166679",
+                              "enabled": true,
+                              "has_discount": true,
+                              "default_discount_terms": [
+                                                         "Promoción no acumulable con otras promociones.",
+                                                         "La promoción no incluye menús a precio fijo (por ejemplo: menú ejecutivo, menú del día, etc)."
+                                                         ],
+                              "timezone": "America/Montevideo",
+                              "lunch_starts": "12:00",
+                              "lunch_ends": "15:00",
+                              "dinner_starts": "20:00",
+                              "dinner_ends": "23:00",
+                              "disable_restorando_phone": false
+                              }
+                              ],
+                  "flag_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/200px-Flag_of_Uruguay.svg.png"
+                  }
+                  ],
+    "version": "diferent than prodcution"
+}
