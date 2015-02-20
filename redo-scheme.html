@@ -1,62 +1,54 @@
 <html>
-    <head>
-        <title>test</title>
-    </head>
-
-    <body>
-    	<marquee behavior="scroll" direction="left"><h1><i>Deep</i> Linking.....</h1></marquee>
-<br><h3>Version info:</h3>
-<br><a href="restorando://version_info">Ver la version instalada</a>
-<br>
-<br>
-<br><h3>Restaurant individual:</h3>
-<br><a href="restorando://buenos-aires/restaurante/rodizio-costanera-norte">Rodizio Costanera Norte</a>
-<br><a href="restorando://buenos-aires/restaurante/janio">Janio</a>
-<br><a href="restorando://sao-paulo/restaurante/vacas-gordas-parrilla-gourmet">Vacas Gordas Parrilla Gourmet</a>
-<br>
-<br><a href="restorando://buenos-aires/restaurante/el-padrino">El Padrino</a>
-<br><a href="restorando://buenos-aires/restaurante/janio/date:today">Janio hoy</a>
-<br><a href="restorando://buenos-aires/restaurante/janio/date:tomorrow">Janio manana</a>
-<br><a href="restorando://buenos-aires/restaurante/janio/date:monday">Janio lunes</a> 
-<br><a href="restorando://buenos-aires/restaurante/janio/date:tuesday">Janio martes</a> 
-<br><a href="restorando://buenos-aires/restaurante/janio/date:thursday">Janio jueves</a> 
-<br><a href="restorando://buenos-aires/restaurante/janio/date:monday+time:lunch">Janio lunes al mediodia</a> 
-<br>
-<br><a href="restorando://buenos-aires/restaurante/janio/date:2014-04-30+time:13_00">Janio date:2013-12-09+time:13_00</a> 
-<br>
-<br><h3>Busquedas:</h3>
-<br>
-<br><a href="restorando://buenos-aires/restaurantes">Busqueda sin parametros</a> 
-<br><a href="restorando://buenos-aires/restaurantes/date:tomorrow+time:15_30+diners:3+cuisine:sushi">Sushi Mañana 15:30</a>
-<br><a href="restorando://sao-paulo/restaurantes/date:tomorrow+time:15_30+diners:2+specials:visa">Specials visa - Mañana 15:30</a>
-<br>
-<br><h3>Barrios:</h3>
-<br>
-<br><a href="restorando://buenos-aires/restaurantes/zone:recoleta">Zona Recoleta</a> 
-<br><a href="restorando://buenos-aires/restaurantes/zone:recoleta,palermo">Zona Recoleta Palermo</a> 
-<br>
-<br><h3>Cocinas:</h3>
-<br>
-<br><a href="restorando://buenos-aires/restaurantes/cuisine:italiana+diners:4+date:2014-04-30">Comida italiana - 30 de abril, 4 diners</a> 
-<br><a href="restorando://buenos-aires/restaurantes/cuisine:italiana">Comida italiana</a> 
-<br><a href="restorando://buenos-aires/restaurantes/cuisine:parrilla">Parrillas</a> 
-<br><a href="restorando://buenos-aires/restaurantes/cuisine:italiana,sushi">Comida italiana o sushi</a> 
-<br>
-<br><h3>Listas:</h3>
-<br>
-<br><a href="restorando://buenos-aires/restaurantes/list:food_week_2014_04">BA Food Week Abril 2014</a><br><a href="restorando://buenos-aires/restaurantes/list:bafoodweek+title:Food Week 2da edición">FOODWEEK</a>
-<br><a href="restorando://buenos-aires/restaurantes/list:food_week_2014_04">BA Food Week Abril 2014</a>
-<br><a href="restorando://buenos-aires/restaurantes/list:parolaccia-restaurants+title:Restaurantes La Parolaccia">Restaurantes La Parolaccia</a>
-<br><a href="restorando://sao-paulo/restaurantes/list:double-buddies">Lista double buddies</a>
-<br><a href="restorando://buenos-aires/restaurantes/list:food_week_2014_04+diners:4+date:2014-04-30">BA Food Week Abril 2014 - 30 de abril - 4 diners</a> 
-<br><a href="restorando://buenos-aires/restaurantes/list:food_week_2014_04+diners:4+date:2014-04-30">[Sandbox] bafw_tercera_edicion - 30 de abril - 4 diners</a> 
-<br>
-<br><h3>Ubicacion:</h3>
-<br>
-<br><a href="restorando://buenos-aires/restaurantes/near:-34.6205664%7C-58.3716475">Alrededor de -34.6205664,-58.3716475 (plaza dorrego, san telmo)</a> 
-<br><a href="restorando://buenos-aires/restaurantes/near:true">Cerca del usuario</a> 
-<br>
-<br><a href="restorando://version_info">Display version info</a> 
-<br>
-    </body>
+	<head>
+		<title>Awesome Redo deeplinks!</title>
+	</head>
+	<body>
+		<link rel="stylesheet" href="http://necolas.github.io/normalize.css/3.0.2/normalize.css"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css"/>
+		<STYLE type="text/css">
+		.section-header { font-size:40; background-color: #DDD;}
+		a {font-size: 35}
+		</STYLE>
+		<div class="container-fluid">
+			<h3 class="row  section-header list-group-item">Version info:</h3>
+			<a class="row  list-group-item" href="restorando://version_info">Ver la version instalada</a>
+			<h3 class="row  section-header list-group-item">Restaurant individual:</h3>
+			<a class="row  list-group-item" href="restorando://buenos-aires/restaurante/rodizio-costanera-norte">Rodizio Costanera Norte</a>
+			<a class="row  list-group-item" href="restorando://buenos-aires/restaurante/janio">Janio</a>
+			<a class="row  list-group-item" href="restorando://sao-paulo/restaurante/vacas-gordas-parrilla-gourmet">Vacas Gordas Parrilla Gourmet</a>
+			<a class="row  list-group-item" href="restorando://buenos-aires/restaurante/el-padrino">El Padrino</a>
+			<a class="row  list-group-item" href="restorando://buenos-aires/restaurante/janio/date:today">Janio hoy</a>
+			<a class="row  list-group-item" href="restorando://buenos-aires/restaurante/janio/date:tomorrow">Janio manana</a>
+			<a class="row  list-group-item" href="restorando://buenos-aires/restaurante/janio/date:monday">Janio lunes</a>
+			<a class="row  list-group-item" href="restorando://buenos-aires/restaurante/janio/date:tuesday">Janio martes</a>
+			<a class="row  list-group-item" href="restorando://buenos-aires/restaurante/janio/date:thursday">Janio jueves</a>
+			<a class="row  list-group-item" href="restorando://buenos-aires/restaurante/janio/date:monday+time:lunch">Janio lunes al mediodia</a>
+			<a class="row  list-group-item" href="restorando://buenos-aires/restaurante/janio/date:2014-04-30+time:13_00">Janio date:2013-12-09+time:13_00</a>
+			<h3 class="row  section-header list-group-item">Busquedas:</h3>
+			<a class="row  list-group-item" href="restorando://buenos-aires/restaurantes">Busqueda sin parametros</a>
+			<a class="row  list-group-item" href="restorando://buenos-aires/restaurantes/date:tomorrow+time:15_30+diners:3+cuisine:sushi">Sushi Mañana 15:30</a>
+			<a class="row  list-group-item" href="restorando://sao-paulo/restaurantes/date:tomorrow+time:15_30+diners:2+specials:visa">Specials visa - Mañana 15:30</a>
+			<h3 class="row  section-header list-group-item">Barrios:</h3>
+			<a class="row  list-group-item" href="restorando://buenos-aires/restaurantes/zone:recoleta">Zona Recoleta</a>
+			<a class="row  list-group-item" href="restorando://buenos-aires/restaurantes/zone:recoleta,palermo">Zona Recoleta Palermo</a>
+			<h3 class="row  section-header list-group-item">Cocinas:</h3>
+			<a class="row  list-group-item" href="restorando://buenos-aires/restaurantes/cuisine:italiana+diners:4+date:2014-04-30">Comida italiana - 30 de abril, 4 diners</a>
+			<a class="row  list-group-item" href="restorando://buenos-aires/restaurantes/cuisine:italiana">Comida italiana</a>
+			<a class="row  list-group-item" href="restorando://buenos-aires/restaurantes/cuisine:parrilla">Parrillas</a>
+			<a class="row  list-group-item" href="restorando://buenos-aires/restaurantes/cuisine:italiana,sushi">Comida italiana o sushi</a>
+			<h3 class="row  section-header list-group-item">Listas:</h3>
+			<a class="row  list-group-item" href="restorando://buenos-aires/restaurantes/list:food_week_2014_04">BA Food Week Abril 2014</a>
+			<a class="row  list-group-item" href="restorando://buenos-aires/restaurantes/list:bafoodweek+title:Food Week 2da edición">FOODWEEK</a>
+			<a class="row  list-group-item" href="restorando://buenos-aires/restaurantes/list:food_week_2014_04">BA Food Week Abril 2014</a>
+			<a class="row  list-group-item" href="restorando://buenos-aires/restaurantes/list:parolaccia-restaurants+title:Restaurantes La Parolaccia">Restaurantes La Parolaccia</a>
+			<a class="row  list-group-item" href="restorando://sao-paulo/restaurantes/list:double-buddies">Lista double buddies</a>
+			<a class="row  list-group-item" href="restorando://buenos-aires/restaurantes/list:food_week_2014_04+diners:4+date:2014-04-30">BA Food Week Abril 2014 - 30 de abril - 4 diners</a>
+			<a class="row  list-group-item" href="restorando://buenos-aires/restaurantes/list:food_week_2014_04+diners:4+date:2014-04-30">[Sandbox] bafw_tercera_edicion - 30 de abril - 4 diners</a>
+			<h3 class="row  section-header list-group-item">Ubicacion:</h3>
+			<a class="row  list-group-item" href="restorando://buenos-aires/restaurantes/near:-34.6205664%7C-58.3716475">Alrededor de -34.6205664,-58.3716475 (plaza dorrego, san telmo)</a>
+			<a class="row  list-group-item" href="restorando://buenos-aires/restaurantes/near:true">Cerca del usuario</a>
+			<a class="row  list-group-item" href="restorando://version_info">Display version info</a>
+		</div>
+	</body>
 </html>
