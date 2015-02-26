@@ -1,0 +1,42 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+    
+<meta content="minimum-scale=1.0, width=device-width, maximum-scale=0.6667, user-scalable=no" name="viewport">
+<link rel="apple-touch-icon" href="http://ayuda.restorando.com/system/logos/2016/7053/logo-restorando.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Redo Ios - Installer</title>
+
+</head>
+<body cz-shortcut-listen="true">
+
+<h1 id="topbar" class="black">
+    <div class="prompt">Application Installer</div>
+    <img src="http://ayuda.restorando.com/system/logos/2016/7053/logo-restorando.png"/>
+</h1>
+<h2>iOS Application</h2>
+<div class="section">
+    <a href="itms-services://?action=download-manifest&amp;url=https://dl.dropboxusercontent.com/u/22381470/redo-ios.plist">
+        <div class="row">Install latest Redo iOS
+        </div>
+    </a>
+</div>
+
+<h2>rebs Android Application</h2>
+<div class="section">
+    <a href="http://192.168.1.13/rebs-android.apk">
+        <div class="row">Install latest Rebs - android
+        </div>
+    </a>
+</div>
+
+<div class="footer">Just tap 'Install Application'.</div>
+
+<script>
+    var myLinks = document.getElementsByClassName('row');
+    for(var i = 0; i < myLinks.length; i++){
+        myLinks[i].addEventListener('touchstart', function(){this.className = "row hover";}, false);
+        myLinks[i].addEventListener('touchend', function(){this.className = "row";}, false);
+    }
+</script>
+
+</body></html>
